@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="XamarinMadridDemo.Features.CounterView"
+             Title="Counter">
+    <StackLayout HorizontalOptions="Center" VerticalOptions="Center" Spacing="89">
+        
+        <Button Text="Press me to count" HorizontalOptions="Center" x:Name="buttonTest" />
+        <Label Text="{Binding Counter}" HorizontalOptions="Center" TextColor="Red" x:Name="lbCounter"/>
+
+    </StackLayout>
+</ContentPage>
